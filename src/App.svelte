@@ -1,9 +1,10 @@
 <script>
-  import Link from "./lib/Link.svelte";
+  import LinkContainer from './lib/LinkContainer.svelte'
+  
 </script>
 
 <main>
-  <Link />
+  <LinkContainer />
 </main>
 
 <style>
