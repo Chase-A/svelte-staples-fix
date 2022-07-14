@@ -1,13 +1,12 @@
 <script>
-    export let name
+    export let link
 
-    function handleClick(e){
-        console.log('test')
-        
+    function handleClick(){
+        link.toggled = !link.toggled
     }
 </script>
 
-<button on:click={handleClick}>{name}</button>
+<button on:click={handleClick}>{link.category}</button>
 
 <style>
     button{

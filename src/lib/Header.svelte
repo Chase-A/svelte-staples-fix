@@ -7,7 +7,7 @@
 <h1>Staples Fix: Svelte</h1>
 <div>
     {#each data as link}
-    <LinkToggle bind:name={link.category}/>
+    <LinkToggle bind:link={link}/>
     {/each}
 </div>
 <style>
